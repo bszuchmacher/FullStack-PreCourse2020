@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+    <link href="/Users/benszuchmacher/Desktop/ITCPrecourse/contact.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark .justify-content-center fixed-top">
+        <a class="navbar-brand" href="./index.html">Ben Szuchmacher</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div>  
+      </nav>
+
+      <section class="mb-4">
+        <div id="contactheader">
+        <h2>Contact Me!</h2>  
+        <br>
+        <br>   
+        </div> 
+        <div class="row">
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mr-3">
+                                <input type="text" id="firstname" name="firstname" class="form-control">
+                                <label for="name" class="">First Name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="md-form mr-3">
+                              <input type="text" id="lastname" name="lastname" class="form-control">
+                              <label for="name" class="">Last Name</label>
+                          </div>
+                      </div>
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="text-center text-md-left">
+                  <form action="" id="form" onsubmit="sConsole(event)">
+                  <button class="btn btn-primary" type="submit">Submit!</button>
+                </div>
+                <div class="status"></div>
+            </div>
+        </div>
+          </form>
+    <footer class="page-footer">
+      <div class="container">
+      <hr class="rgba-white-light" style="margin: 5% 15%;">
+      <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+        <div class="row pt-5 mb-3"></div>
+        <p style="line-height: 1.7rem">“If you are working on something that you really care about, YOU don’t have to be PUSHED, the vision PULLS YOU.” – Steve Jobs <br>
+          Steve Jobs truly captured some of the wisdom of life in this statement. Do that which you are passionate about and your work will feel effortless.</p>
+      </div>
+      </div> 
+      <hr class=" d-md-none rgba-white-light" style="margin: 10% 15% 5%;">   
+      <div class="col-md-12">
+        <div class="mb-5 flex-center">
+          <a class="fb-ic">
+            <i class="fa fa-facebook fa-lg white-text mr-4"> </i>
+          </a>
+          
+          <a class="li-ic">
+            <i class="fa fa-linkedin fa-lg white-text mr-4"> </i>
+          </a>
+          
+          <a class="ins-ic">
+            <i class="fa fa-instagram fa-lg white-text mr-4"> </i>
+          </a>
+          
+          <a class="gh-ic">
+            <i class="fa fa-github fa-lg white-text mr-4"> </i>
+          </a>
+
+        </div>
+
+      </div>
+        </div>
+    
+      <div style="display: inline-flex">
+          <p id="webfoot"></p>
+          
+        </div>  
+        <div class="copyrighttoo py-3">
+          Ben Szuchmacher 2020-FOREVER!
+          <a href="./index.html">
+          </a>
+  
+    </div>
+      </div>
+
+    </footer>
+    <script src="./contact.js"></script>
+    <script src="./footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+</body>
+</html>

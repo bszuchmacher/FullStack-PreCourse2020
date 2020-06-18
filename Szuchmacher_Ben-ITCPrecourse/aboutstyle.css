@@ -1,0 +1,259 @@
+.myList {
+  justify-content: center;
+  padding-top: 30%;
+}
+.navbarSupportedContent {
+  justify-content: center;
+  padding-right: 100px;
+}
+.fa {
+  display: inline-flex;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 40px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-left: 186px;
+  padding-top: 30px;
+  padding-right: 27px;
+}
+
+.col-md-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 19px;
+}
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-right: 85px;
+  padding-left: 200px;
+}
+.lead {
+  padding-left: 570px;
+}
+
+.leader {
+  padding-left: 250px;
+}
+
+.row {
+  margin-left: 73px;
+}
+
+.fn {
+  padding-top: -10px;
+}
+
+.container {
+  margin-left: 350px;
+}
+
+.stepper {
+  padding-left: 550px;
+}
+
+.button {
+  background-color: #3d6ded;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+}
+.step-actions {
+  margin-left: 600px;
+}
+
+.footer-copyright {
+  padding-left: 350px;
+}
+.footer-copyrighttoo {
+  padding-left: 650px;
+}
+
+.p{
+  padding-right: 400px;
+}
+
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-right: 85px;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-right: 85px;
+}
+.my-4 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-right: 85px;
+}
+
+.nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+  font-size: 18px;
+  margin: 15px;
+  text-decoration: none;
+}
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin-left: 800px;
+}
+*/ .profile-image {
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 32px;
+  height: 200px;
+  margin: 50px;
+  width: 180px;
+}
+
+.submit {
+  background-color: blanchedalmond;
+}
+.nav-link {
+  padding-right: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 24px;
+}
+.clear {
+  clear: both;
+}
+#page-wrap {
+  width: 800px;
+  margin: 40px auto 60px;
+}
+#pic {
+  float: right;
+  width: 173px;
+  padding-top: 42px;
+}
+h1 {
+  margin: 0 0 16px 0;
+  padding: 60px 0 16px 0;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  border-bottom: 1px solid #999;
+}
+h2 {
+  font-size: 20px;
+  margin: 0 0 6px 0;
+  position: relative;
+}
+h2 span {
+  position: absolute;
+  bottom: 1px;
+  right: -115px;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #999;
+  font-weight: normal;
+}
+p {
+  margin: 0 0 16px 0;
+}
+a {
+  color: #999;
+  text-decoration: none;
+  /* border-bottom: 1px dotted #999; */
+}
+a:hover {
+  border-bottom-style: solid;
+  color: black;
+}
+ul {
+  margin: 0 0 32px 17px;
+}
+#objective {
+  width: 500px;
+  float: left;
+}
+#objective p {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  color: #666;
+}
+dt {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+  padding: 0 26px 0 0;
+  width: 150px;
+  float: left;
+  height: 100px;
+  border-right: 1px solid #999;
+}
+dd {
+  width: 600px;
+  float: right;
+}
+dd.clear {
+  float: none;
+  margin: 0;
+  height: 15px;
+}
+
+.map-pointer{
+  padding-left: 35px;
+}
+
+.map {
+  display: none;
+}
+
+.active {
+  display: block; 
+  height: 650px;
+  width: 450px;
+}
+
+.prev , .next {
+  width: 170px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 50px;
+  margin-left:500px;
+  background-color: aqua;
+}
+.next {
+  background-color: aqua;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out; 
+}
+.prev , .next:hover {
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 8px aquamarine;
+  border: 3px solid #00d7c3;
+}
+
